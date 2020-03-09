@@ -1,0 +1,62 @@
+#example-one-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+#example-two-grid{
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+}
+
+#example-three-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 80px;
+    column-gap: 40px
+}
+
+#example-four-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 80px;
+    column-gap: 40px
+}
+
+#example-four-grid > div{
+    background-color: rgb(13, 94, 126);
+    color: white;
+    padding: 20px
+}
+
+#example-five-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 40px;
+    column-gap: 40px
+}
+
+#example-five-grid > div{
+    background-color: rgb(75, 13, 126);
+    color: white;
+    padding: 20px
+}
+
+.span-two-columns{
+    grid-column: span 2;
+}
+
+#example-six-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 40px;
+    column-gap: 40px;
+    grid-auto-rows: minmax(100px, 250px);
+}
+
+#example-six-grid > div{
+    background-color: rgb(126, 13, 69);
+    color: white;
+    padding: 20px;
+    overflow: scroll;
+}
